@@ -10,6 +10,6 @@ deviceClient.connect();
 deviceClient.on('connect', function() {
     console.log("connected");
     setInterval(function function_name () {
-      deviceClient.publish('event_1', 'json', '{"temp":' + 4 +'}');
+      deviceClient.publish('temp', 'json', '{"temp":' + 4 +'}');
     },2000);
   });
