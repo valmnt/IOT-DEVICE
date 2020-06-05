@@ -1,0 +1,7 @@
+{
+    "org": "7q1q1p",
+    "type": "DTC",
+    "id": "iot-project",
+    "auth-method" : "token",
+    "auth-token" : "iot-project"
+  }
